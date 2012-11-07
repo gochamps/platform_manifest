@@ -356,8 +356,8 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb" />
 
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb" />
-  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" revision="gingerbread" />
-  <project path="hardware/realtek" name="christiantroy/android_hardware_realtek" revision="jellybean-cm"/>
+  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="gochamps" revision="gingerbread" />
+  <project path="hardware/realtek" name="christiantroy/android_hardware_realtek" remote="gochamps" revision="jellybean-cm"/>
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
