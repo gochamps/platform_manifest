@@ -12,6 +12,9 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
+<remote  name="gochamps"
+           fetch="https://github.com/"/>
+
   <default remote="aosp"
            sync-j="4" />
 
@@ -215,8 +218,8 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="frameworks/av" name="gochamps/android_frameworks_av" revision="jb_allwinner" />
-  <project path="frameworks/base" name="gochamps/frameworks_base" revision="jb" />
+  <project path="frameworks/av" name="gochamps/android_frameworks_av" remote="gochamps" revision="jb_allwinner" />
+  <project path="frameworks/base" name="gochamps/frameworks_base" remote="gochamps" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -224,7 +227,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="frameworks/mff" name="platform/frameworks/mff" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="frameworks/ml" name="platform/frameworks/ml" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="frameworks/native" name="gochamps/frameworks_native" revision="jb" />
+  <project path="frameworks/native" name="gochamps/frameworks_native" remote="gochamps" revision="jb" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
@@ -237,7 +240,7 @@
   <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="aokp" revision="jb" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
-  <project path="hardware/libhardware" name="gochamps/hardware_libhardware" revision="jb" />
+  <project path="hardware/libhardware" name="gochamps/hardware_libhardware" remote="gochamps" revision="jb" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="jellybean" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="jellybean" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="jellybean" />
@@ -336,7 +339,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="sdk" name="AOKP/android_sdk" remote="aokp" revision="jb" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
-  <project path="system/core" name="gochamps/android_system_core" revision="jb" />
+  <project path="system/core" name="gochamps/android_system_core" remote="gochamps" revision="jb" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
@@ -359,7 +362,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
-  <project path="device/softwinner/a10sk" name="gochamps/device_softwinner_a10sk" revision="master"/>
+  <project path="device/softwinner/a10sk" name="gochamps/device_softwinner_a10sk" remote="gochamps" revision="master"/>
   <project path="device/samsung/p5100" name="AOKP/android_device_samsung_p5100" remote="aokp" revision="jb" />
   <project path="device/samsung/p5110" name="AOKP/android_device_samsung_p5110" remote="aokp" revision="jb" />
   <project path="device/samsung/p5113" name="AOKP/android_device_samsung_p5113" remote="aokp" revision="jb" />
